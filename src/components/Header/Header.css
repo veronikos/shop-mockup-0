@@ -1,0 +1,8 @@
+#AppHeader {
+    background-color: bisque;
+}
+
+#AppHeader .title{
+    max-width: 300px;
+    overflow: hidden;
+}

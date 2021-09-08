@@ -1,10 +1,12 @@
 import React from "react";
-import { Root } from "./ShopFrontPage";
+import { Root } from "./ShopFrontPage.ui";
 
-function ShopFrontPage() {
-    return <div>
-        <h2>Shop Front Page</h2>
-    </div>
+function ShopFrontPage({children}) {
+    return (
+        <Root>
+            <h2>Shop Front Page</h2>
+        </Root>
+    )
 }
 
 export default ShopFrontPage

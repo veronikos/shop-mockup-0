@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header title={"My cool keyboard shop"}></Header>
+      <ShopFrontPage/>
     </div>
   );
 }

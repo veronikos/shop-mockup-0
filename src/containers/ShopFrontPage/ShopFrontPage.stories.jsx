@@ -1,5 +1,7 @@
 import React from "react";
 import ShopFrontPageBase from ".";
+import CardsList from "../../components/CardsList";
+import {defaultData} from "../../components/CardsList/stories/dataMock"
 
 export function ShopFrontPage () {
     return <ShopFrontPageBase/>
@@ -7,7 +9,7 @@ export function ShopFrontPage () {
 
 export function ShopFrontPageWithCards () {
     return <ShopFrontPageBase> 
-        <div></div>
+        <CardsList data={defaultData}/>
     </ShopFrontPageBase>;
 }
 

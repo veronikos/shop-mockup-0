@@ -9,7 +9,7 @@ export function ShopFrontPage () {
 
 export function ShopFrontPageWithCards () {
     return <ShopFrontPageBase> 
-        <CardsList data={defaultData}/>
+        <CardsList title={"Sample Title"} data={defaultData}/>
     </ShopFrontPageBase>;
 }
 

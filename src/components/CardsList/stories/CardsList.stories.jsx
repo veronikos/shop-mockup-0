@@ -5,8 +5,12 @@ export function CardsListNoData () {
     return <CardsListBase />
 }
 
-export function CardsListData () {
+export function CardsListDataWithoutTitle () {
     return <CardsListBase data={defaultData} />
+}
+
+export function CardsListDataWithTitle () {
+    return <CardsListBase title={"Keyboards"} data={defaultData} />
 }
 
 export default {

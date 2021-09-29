@@ -5,7 +5,10 @@ export const Root = styled.div`
     padding: 1rem;
     min-width: 100px;
     min-height: 100px;
+
+    .items {
     display: grid;
     grid-template-columns:  max-content max-content max-content; 
     gap: 1rm;
+    }
 `;

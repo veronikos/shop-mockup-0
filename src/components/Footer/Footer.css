@@ -1,0 +1,8 @@
+#AppFooter {
+    background-color: bisque;
+}
+
+#AppFooter .title{
+    max-width: 300px;
+    overflow: hidden;
+} 

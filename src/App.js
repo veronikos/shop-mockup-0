@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Header title={"My cool keyboard shop -1"}></Header>
       <ShopFrontPage/>
+      <Header title={"My Cool Footer"}></Header>
     </div>
   );
 }
